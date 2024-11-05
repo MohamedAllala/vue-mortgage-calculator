@@ -1,21 +1,18 @@
 <script setup lang="ts">
+import LandingPage from './components/LandingPage.vue';
 </script>
 
 <template>
-
+  <div class="mt-2 mb-2 main-layout">
+    <LandingPage/>
+  </div>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+.main-layout {
+  background: radial-gradient(circle, rgba(174,238,238,0.9556197478991597) 0%, rgba(205,148,233,0.7539390756302521) 100%);
+  margin: 5%;
+  border-radius: 15px;
+  padding: 15px;
 }
 </style>
